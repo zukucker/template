@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    height:480px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow:hidden;
+}
+
+.container{
+    height:100%;
+    text-align: center;
+    margin-top:20%;
+}
+
+.container h1{
+    font-size:5em;
+}
+
+.container input{
+    border-left:0;
+    border-right:0;
+    border-top:0;
+    border-bottom:1px solid #ccc;
+    min-width:100px;
+    width:500px;
+    max-width: 500px;
+    height:25px;
+}
+
+.bottom-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    bottom:0;
+}
+
+.top-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+}

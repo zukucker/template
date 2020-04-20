@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+</head>
+<body>
+    <div class="top-container">
+        <div id="weather">
+            {{weather}}
+        </div>
+    </div>
+    <div class="container">
+        <div id="time">{{time}}</div>
+        <h1>What's your name?</h1>
+        <input type="text" name="name" id="name">
+    </div>
+    <div class="bottom-container">
+    <div id="settings">
+        {{settings}}
+    </div>
+    <div id="dailyqoute">
+        {{qoute}}
+    </div>
+    <div id="todo">
+        {{todo}}
+    </div>
+</div>
+    <script src="vue.js"></script>
+</body>
+</html>
