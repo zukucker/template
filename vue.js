@@ -1,34 +1,39 @@
-var app = new Vue({
+var settings = new Vue({
     el: '#settings',
     data: {
         settings: 'Einstellungen'
     },
 })
 
-var app = new Vue({
+var weather = new Vue({
     el: '#weather',
     data: {
         weather: 'Wetter'
     }
 })
 
-var app = new Vue({
+var dailyqoute = new Vue({
     el: '#dailyqoute',
     data: {
         qoute: 'Zitat'
     }
 })
 
-var app = new Vue({
+var time = new Vue({
     el: '#time',
     data: {
         time: 'Uhrzeit'
     }
 })
 
-var app = new Vue({
+var todo = new Vue({
     el: '#todo',
     data:{
-        todo: 'ToDo'
+        // todos: [
+        //     {text: 'test1'},
+        //     {text: 'test2'},
+        //     {text: 'test3'},
+        // ]
+        todo: "ToDo",
     }
 })
